@@ -2,15 +2,15 @@
 namespace Ank91\WP_Screen_Options;
 ?><?php
 /*
-Plugin Name: WP Screen Options
-Plugin URI: https://github.com/ank91/wp-screen-options
+Plugin Name: WP Screen Options Demo
+Plugin URI: https://github.com/ank91/wp-screen-options-demo
 Description: Demo plugin to demonstrate screen options
 Version: 1.0
 Author: Ankur Kumar
 Author URI: http://ank91.github.io/
 License: GPL2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: wp-screen-options
+Text Domain: wp-screen-options-demo
 Domain Path: /languages
 */
 ?><?php

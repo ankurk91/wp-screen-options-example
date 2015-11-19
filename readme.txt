@@ -1,4 +1,4 @@
-=== WP Screen Options ===
+=== WP Screen Options Demo===
 Tags: screen-options, demo
 Requires at least: 3.8.0
 Tested up to: 4.3.1
