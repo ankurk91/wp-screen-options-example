@@ -7,7 +7,7 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Contributors: ank91
 
-Demo plugin to demonstrate screen options
+Demo plugin to demonstrate screen options on a custom plugin option page
 
 == Description ==
 
@@ -20,6 +20,9 @@ Demo plugin to demonstrate screen options
 == Screenshots ==
 
 == Changelog ==
+
+= 1.0.0 =
+* First release
 
 == Arbitrary section ==
 

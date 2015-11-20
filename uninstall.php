@@ -12,5 +12,5 @@ if (!defined('ABSPATH') && !defined('WP_UNINSTALL_PLUGIN'))
 
 
 // Remove the database entry created by this plugin
-delete_option('wp_screen_options');
+delete_option('wpsco_options');
 

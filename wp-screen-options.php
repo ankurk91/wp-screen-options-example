@@ -15,8 +15,8 @@ Domain Path: /languages
 */
 ?><?php
 
-define('WPSCOP_PLUGIN_VER', '1.0.0');
-define('WPSCOP_BASE_FILE', plugin_basename(__FILE__));
+define('WPSCO_PLUGIN_VER', '1.0.0');
+define('WPSCO_BASE_FILE', plugin_basename(__FILE__));
 
 if (is_admin()) {
     require(__DIR__ . '/admin/class-admin.php');
