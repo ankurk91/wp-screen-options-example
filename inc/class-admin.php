@@ -1,4 +1,5 @@
 <?php
+
 namespace Ankur\Plugins\WP_Screen_Options;
 
 /**
@@ -119,7 +120,7 @@ class Admin
 
         if (strpos($screen->id, self::PLUGIN_SLUG) !== false) {
             ob_start();
-            $this->load_view('screen_options.php', $this->get_view_vars());
+            $this->load_view('screen-options.php', $this->get_view_vars());
             ?>
             <?php
             $current .= ob_get_clean();
@@ -145,20 +146,21 @@ class Admin
 
         $inputs = $_GET['wpsco_options'];
 
-        $secure = array();
-        $secure['check_box_1'] = isset($inputs['check_box_1']);
-        $secure['check_box_2'] = isset($inputs['check_box_2']);
-        $secure['number_1'] = absint($inputs['number_1']);
+        $safe = array();
+        $safe['check_box_1'] = isset($inputs['check_box_1']);
+        $safe['check_box_2'] = isset($inputs['check_box_2']);
+        $safe['number_1'] = absint($inputs['number_1']);
 
-        update_option(self::PLUGIN_OPTION_NAME, $secure);
+        update_option(self::PLUGIN_OPTION_NAME, $safe);
 
-        wp_send_json_success();
+        wp_send_json_success($safe);
 
     }
 
     /**
      * Loads a view (template file)
-     * @param $file String File name with ext
+     *
+     * @param $file String File name with extension
      * @param $_vars array
      * @throws \Exception
      */
@@ -168,7 +170,7 @@ class Admin
 
         if (is_readable($file_path)) {
             extract($_vars);
-            unset($vars);
+            unset($_vars);
             require $file_path;
         } else {
             throw new \Exception("Unable to load settings page, Template file" . esc_html($file_path) . " not found");

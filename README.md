@@ -5,7 +5,7 @@
 ![screenshot](https://github.com/ankurk91/wp-screen-options-example/raw/assets/screenshot-1.png)
 
 ### Prerequisite
-* php v5.3.2+ or v7.0.x
+* php v5.3.2+ || v7.0.x
 * WordPress v3.8+
 
 ### Installation Guide

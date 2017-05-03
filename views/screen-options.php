@@ -11,7 +11,7 @@
     <label for="wpsco_option_3">Option three:</label>
     <input type="number" step="1" min="1" max="999" name="wpsco_options[number_1]" id="wpsco_option_3" maxlength="3"
            value="<?php echo esc_attr($db['number_1'])?>">
-    <input type="button" class="button" value="Save Changes">
+    <input type="submit" class="button" value="Save Changes">
 </div>
 <input type="hidden" name="action" value="<?php echo $ajax_action; ?>"/>
 <?php

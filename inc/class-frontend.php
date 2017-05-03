@@ -1,4 +1,5 @@
 <?php
+
 namespace Ankur\Plugins\WP_Screen_Options;
 
 /**

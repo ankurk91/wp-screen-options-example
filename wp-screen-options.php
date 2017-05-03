@@ -1,11 +1,12 @@
 <?php
+
 namespace Ankur\Plugins\WP_Screen_Options;
 
 /**
  * Plugin Name: WP Screen Options
  * Plugin URI: https://github.com/ankurk91/wp-screen-options-example
  * Description: Demo plugin to demonstrate screen options
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Ankur Kumar
  * Author URI: http://ankurk91.github.io/
  * License: MIT
@@ -15,7 +16,7 @@ namespace Ankur\Plugins\WP_Screen_Options;
  */
 
 
-define('WPSCO_PLUGIN_VER', '1.0.0');
+define('WPSCO_PLUGIN_VER', '1.0.1');
 define('WPSCO_BASE_FILE', __FILE__);
 
 /**
